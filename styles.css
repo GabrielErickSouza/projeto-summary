@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2? family= Hanken+Grotesk:ital,wght@0,500;0,600;0,700;1,500;1,700 & display=swap');
+
+*{
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+    font-size: 18px;
+}
+
+.result{
+    background:linear-gradient(hsl(252, 100%, 67%)
+   , hsl(241, 81%, 54%)) ;
+   border-radius: 0px 0px 30px 30px ;
+   color: white;
+   text-align: center;
+}
+
+.result > h1{
+    font-size: 1.3em;
+    padding-top: 23px;
+    color: rgb(223, 217, 217);
+}
+
+.result > .center{
+    background:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 81%, 54%, 0.251));
+    margin: auto;
+    margin-top: 15px;
+    padding: 35px;
+    width: 140px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.result > .center > #numero{
+    font-size: 2.4em;
+}
+
+.result > .center > #num{
+    color:rgb(223, 217, 217);
+    font-size: 0.8em;
+}
+
+.result > h2{
+    font-size: 1.2em;
+    padding: 15px;
+}
+
+.result > p{
+    color:rgb(223, 217, 217) ;
+    padding: 0px 15px 15px 20px;
+    font-size: 0.8em;
+    width: 300px;
+    margin: auto;
+}
+
+.bottom > h1{
+    color: hsl(224, 30%, 27%);
+    font-size: 0.9em;
+    margin: 15px 0px 15px 15px;
+}
+
+.bottom > .summary{
+    padding: 10px;
+    border-radius: 15px;
+    width: 70vw;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom #backred{
+    background-color:hsla(0, 100%, 67%, 0.056) ;
+}
+
+.bottom #backorange{
+    background-color:hsla(39, 100%, 56%, 0.052);
+}
+
+.bottom #backgreen{
+    background-color:hsla(166, 100%, 37%, 0.053);
+}
+
+.bottom #backblue{
+    background-color:hsla(234, 85%, 45%, 0.053);
+}
+
+.bottom .textsummary{
+    font-size: 0.8em;
+}
+
+.bottom .textdark{
+    color: hsl(224, 30%, 27%);
+}
+
+.bottom .textcinza,.textdark{
+    font-size: 0.7em;
+    font-weight: bolder;
+}
+
+.bottom .textcinza{
+    color:hsl(242, 96%, 81%) ;
+}
+
+#red{
+    color: hsl(0, 100%, 67%);
+}
+    
+#orange{
+    color: hsl(39, 100%, 56%); 
+}
+
+#green{
+    color: hsl(166, 100%, 37%);
+}
+
+#blue{
+    color: hsl(234, 85%, 45%);
+}
+
+#red,#orange,#green,#blue{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+#button{
+    justify-content:center;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: white;
+    background-color: hsl(224, 30%, 27%);
+    border-radius: 20px;
+}
+
+#button:hover{
+    background-color:hsla(224, 30%, 27%, 0.427);
+    cursor: pointer;
+}
+
+
+
